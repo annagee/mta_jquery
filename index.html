@@ -6,13 +6,70 @@
   <script src="mta.js"></script>
   
   <title>
-
   </title>
 </head>
 <body>
-<h3>Hi there! Which line would you like to take</h3>
-<h3>Start Station</h3>
-<h3>End Station</h3>
+<h3>Hi there!</h3>
+<!-- 
+<form action="demo_form.asp">
+  First Station: <input type="text" name="fname"><br>
+  Last Station: <input type="text" name="lname"><br>
+  <input type="submit" value="Submit">
+</form> -->
+
+
+<select id="startStation">
+  <option>Select a Start</option>
+    <option value disabled="disabled">Line N</option>
+    <option value="ts" class="lineN">Times Square</option>
+    <option value="34th" class="lineN">34th</option>
+    <option value="28th-n" class="lineN">28th</option>
+    <option value="23rd-n" class="lineN">23rd</option>
+    <option value="us" class="lineN">Union Square</option>
+    <option value="8th-n" class="lineN">8th</option>
+  <class value='Line L'>
+    <option value disabled="disabled">Line L</option>
+    <option value="8th-l">8th</option>
+    <option value="6th">6th</option>
+    <option value="us">Union Square</option>
+    <option value="3rd">3rd</option>
+    <option value="1st">1st</option>
+  <class value='Line 6'>
+    <option value disabled="disabled">Line 6</option>
+    <option value="gc">Grand Central</option>
+    <option value="33rd">33rd</option>
+    <option value="28th-s">28th</option>
+    <option value="23rd-s">23rd</option>
+    <option value="us">Union Square</option>
+    <option value="ap">Astor Place</option>
+</select>
+
+<select id="endStation">
+  <option>Select an End</option>
+  <class='Line N'>
+    <option value disabled="disabled">Line N</option>
+    <option value="ts">Times Square</option>
+    <option value="34th">34th</option>
+    <option value="28th-n">28th</option>
+    <option value="23rd-n">23rd</option>
+    <option value="us">Union Square</option>
+    <option value="8th-n">8th</option>
+  <class='Line L'>
+    <option value disabled="disabled">Line L</option>
+    <option value="8th-l">8th</option>
+    <option value="6th">6th</option>
+    <option value="us">Union Square</option>
+    <option value="3rd">3rd</option>
+    <option value="1st">1st</option>
+  <class='Line 6'>
+    <option value disabled="disabled">Line 6</option>
+    <option value="gc">Grand Central</option>
+    <option value="33rd">33rd</option>
+    <option value="28th-s">28th</option>
+    <option value="23rd-s">23rd</option>
+    <option value="us">Union Square</option>
+    <option value="ap">Astor Place</option>
+</select>
 <h3>Number of Stops</h3>
 
 </body>
